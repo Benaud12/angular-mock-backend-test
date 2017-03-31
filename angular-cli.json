@@ -1,7 +1,7 @@
 {
   "project": {
-    "version": "1.0.0-beta.26",
-    "name": "mocking-test"
+    "name": "mocking-test",
+    "ejected": true
   },
   "apps": [
     {
@@ -15,12 +15,13 @@
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
+      "testTsconfig": "tsconfig.json",
       "prefix": "app",
-      "mobile": false,
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -40,18 +41,13 @@
   },
   "defaults": {
     "styleExt": "css",
-    "prefixInterfaces": false,
-    "inline": {
-      "style": false,
-      "template": false
+    "class": {
+      "spec": false
     },
-    "spec": {
-      "class": false,
-      "component": true,
-      "directive": true,
-      "module": false,
-      "pipe": true,
-      "service": true
+    "component": {
+      "spec": true,
+      "inlineStyle": false,
+      "inlineTemplate": false
     }
   }
 }
