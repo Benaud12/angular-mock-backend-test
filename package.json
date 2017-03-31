@@ -26,10 +26,12 @@
     "zone.js": "^0.7.2"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.0",
     "@angular/compiler-cli": "^2.3.1",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
-    "angular-cli": "1.0.0-beta.26",
+    "app-root-path": "^2.0.1",
+    "browserify": "^14.0.0",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "codelyzer": "~2.0.0-beta.1",
@@ -41,6 +43,7 @@
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-remap-istanbul": "^0.2.1",
+    "pkginfo": "^0.4.0",
     "protractor": "~4.0.13",
     "protractor-cucumber-framework": "^0.6.0",
     "ts-node": "1.2.1",

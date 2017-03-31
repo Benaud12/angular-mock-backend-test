@@ -114,7 +114,7 @@ describe('AppComponent', () => {
 
     it(`should set error to true when observable fails`, async(() => {
       // Arrange
-      mockHttpGet.and.returnValue(Observable.throw(new Error('Error'));
+      mockHttpGet.and.returnValue(Observable.throw(new Error('Error')));
 
       // Act
       component.getStuff();
